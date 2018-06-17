@@ -1,161 +1,86 @@
-- name: Surf Videos
-  url: https://github.com/bchiang7/Surf-Videos
-  code: https://github.com/bchiang7/Surf-Videos
-  description: Small React project created during an interview process to browse and search surf videos via the YouTube API.
+- name: should-i-cli
+  url: https://github.com/cedricium/should-i-cli/
+  description: CLI app to make decision-making easier. Ask a question to get back a yes or no answer. Developed using Heroku's <a class="underline-link" href="https://github.com/oclif/oclif#oclif-nodejs-open-cli-framework" target="_blank">oclif open CLI framework</a>. Featured on ProductHunt and has 35+ stars on GitHub.
+  used:
+    - thing: JavaScript (Node.js)
+    - thing: oclif
+    - thing: Mocha / Chai
+
+- name: RapidTabOpener
+  url: https://github.com/cedricium/RapidTabOpener/
+  description: Firefox WebExtension that allows you to open all the websites you want with a single click of a button. This was my first WebExtension and is what really got me into creating small projects designed to improve users' efficiency when using the web. Read more about the project <a class="underline-link" href="https://medium.com/@CedricAmaya/what-i-learned-from-copying-a-builtin-browser-feature-5308983bb8e0" target="_blank">here</a>.
   used:
     - thing: JavaScript
-    - thing: React
-    - thing: React Router
-    - thing: Axios
-    - thing: YouTube API
-
-- name: Halcyon Theme
-  url: https://brittanychiang.com/halcyon-site/
-  code: https://github.com/bchiang7/halcyon-site
-  description: A minimal, dark theme for Sublime Text, Atom, VS Code, and more published to <a class="underline-link" href="https://packagecontrol.io/packages/Halcyon%20Theme">Package Control</a>, <a class="underline-link" href="https://atom.io/themes/halcyon-syntax">Atom Package Manager</a>, <a class="underline-link" href="https://marketplace.visualstudio.com/items?itemName=brittanychiang.halcyon-vscode">Visual Studio Marketplace</a>, and <a class="underline-link" href="https://www.npmjs.com/package/hyper-halcyon-theme">NPM</a>.
-  used:
-    - thing: Gatsby
-    - thing: Sublime Text
-    - thing: Atom
-    - thing: VS Code
-    - thing: iTerm2
-    - thing: Hyper
-
-- name: Lonely Planet DBMS
-  url: https://github.com/bchiang7/CS3200-Project
-  code: https://github.com/bchiang7/CS3200-Project
-  description: Final project for my Database Design course at Northeastern. A simple web application that allows users to filter through a database containing Lonely Planet's <a class="underline-link" href="https://www.amazon.com/Lonely-Planets-Ultimate-Travel-Places/dp/1760342777" target="_blank">Top 500 Travel Destinations</a>. Users are able to add themselves as visitors as well as leave reviews of the destinations.
-  used:
-    - thing: Python
-    - thing: MySQL
-    - thing: Flask
     - thing: HTML
     - thing: CSS
-    - thing: JavaScript
 
-- name: myNEU Redesign
-  url: http://brittanychiang.com/Redesign-myNEU/
-  code: https://github.com/bchiang7/Redesign-myNEU
-  description: myNEU student portal web prototype for my information science senior project. I conducted a study that aimed to answer the question of how myNEU can be improved to provide students at Northeastern with a better user experience. Informed by usability metrics gathered from user tests, I redesigned and developed a web prototype of myNEU.
+- name: Firefly
+  url: https://github.com/cedricium/firefly/
+  description: Firefly is a fullstack web application clone of <a class="underline-link" href="https://www.awwwards.com" target="_blank">Awwwards</a>, <a class="underline-link" href="http://www.siteinspire.com" target="_blank">siteInspire</a>, and <a class="underline-link" href="https://www.lapa.ninja/" target="_blank">lapa</a> who's purpose is to "shed light on inspiring sites from around the web". Firefly was a testbed for me to practice and gain experience using a JavaScript framework (Vue.js) as well as allowing me to further develop my general web development skills.
   used:
-    - thing: Jekyll
-    - thing: HTML
-    - thing: SCSS
-    - thing: JavaScript
-
-- name: Crowd DJ
-  url: https://github.com/crowddj/crowddj-react
-  code: https://github.com/crowddj/crowddj-react
-  description: A web app that allows people who are at a party or social gathering with a DJ to request songs via their smartphones. The web app allows people to see the currently playing song, request songs, upvote songs, and rate songs so the DJ can see how the crowd is feeling and act accordingly. In other words, Crowd DJ is essentially a crowdsourced music queue. <br>
-    <a class="small" href="http://projects.hackbeanpot.com/2017-projects.html">🏆 Won Best UI/UX Design at Hackbeanpot 2017 🏆</a>
-  used:
-    - thing: React
-    - thing: Sass
-    - thing: Firebase
-    - thing: Spotify API
-
-- name: Weather Widget
-  url: http://quiet-dusk-89245.herokuapp.com/
-  code: https://github.com/bchiang7/DemoWebApp
-  description: A simple weather app I made at HubSpot's Fall 2016 Web App Workshop with Node.js, Express, and Heroku. I used the OpenWeatherMap API to get weather and forecast data, and then used the current city's coordinates to create a map background that reflected the current city using the Google Maps API.
-  img: weather
-  used:
-    - thing: JavaScript
-    - thing: CSS
     - thing: Node.js
-    - thing: Express
-    - thing: Heroku
-    - thing: OpenWeatherMap API
-    - thing: Google Maps API
+    - thing: Vue.js
+    - thing: Express.js
+    - thing: Bulma
+    - thing: SQLite
 
-# - name: ScreenTime 2.0
-#   url: https://play.google.com/store/apps/details?id=com.starry.management
-#   description: App-blocking feature on <a class="underline-link" href="https://starry.com/station" target="_blank">Starry Station</a> that provides functionality for users to easily filter content, pause the internet, and even create custom rules for blocking apps like Facebook and Twitter right from their mobile phones. Learn more about ScreenTime 2.0 on <a class="underline-link" href="https://www.producthunt.com/tech/screentime-for-starry-station" target="_blank">Product Hunt</a> and the <a class="underline-link" href="https://blog.starry.com/whats-new-screentime-just-got-better-for-parents/" target="_blank">Starry Blog</a>.
+- name: Signature
+  url: https://github.com/cedricium/signature/
+  description: The second browser extension I built designed to <a class="underline-link" href="https://medium.freecodecamp.org/improving-the-medium-experience-one-browser-extension-at-a-time-7df7e233c984" target="_blank">improve the medium experience</a>. Gives users the ability to quickly insert a signature in Medium blog posts.
+  used:
+    - thing: Node.js
+    - thing: HTML
+    - thing: Bulma
+    - thing: JavaScript APIs
+
+- name: Medium Bookmarklets
+  url: https://github.com/cedricium/medium-bookmarklets/
+  description: The first browser extension I built designed to <a class="underline-link" href="https://medium.freecodecamp.org/improving-the-medium-experience-one-browser-extension-at-a-time-7df7e233c984" target="_blank">improve the medium experience</a>. I found that Medium bookmarks weren't helpful if you hadn't finished an article, so I devised my own solution making use of Medium's fragment identifiers given to each element in an article. This allows users to save their spot in any article.
+  used:
+    - thing: Node.js
+    - thing: HTML
+    - thing: CSS
+
+- name: Quotr
+  url: https://github.com/cedricium/quotr/
+  description: Hundreds of quotes on design from creatives, for creators. Using the <a class="underline-link" href="http://quotesondesign.com/api-v4-0/" target="_blank">Quotes on Design API</a>, this app brings many enlightening, inspiring, and sometimes humorous quotes to your pocket. A must-have if you ever need some extra inspiration.
+  used:
+    - thing: Java (Android)
+    - thing: API
+    - thing: IntelliJ IDEA
+
+- name: generator-sipss
+  url: https://github.com/cedricium/generator-sipss/
+  description: A Yeoman generator used to scaffold a static site for an existing project, one usually hosted on GitHub. It will create a /docs folder containing the site files and resources which then enables you to host your project's newly-created site by enabling GitHub pages from the /docs folder in the master branch. More info can be found by reading <a class="underline-link" href="https://twitter.com/CedricAmaya/status/997322163454525440" target="_blank">this Twitter thread</a>.
+  used:
+    - thing: Yeoman CLI
+    - thing: JavaScript
+
+# TODO - complete later
+# - name: tanabata-tree
+#   url: https://github.com/cedricium/
+#   description:
 #   used:
-#   - thing: JavaScript
-#   - thing: CSS
-#   - thing: Handlebars
-#   - thing: Backbone
-#   - thing: Marionette
-#   - thing: Cordova
+#     - thing:
+#     - thing:
 
-- name: Personal Website V2
-  url: http://brittanychiang.com/v2
-  code: https://github.com/bchiang7/v2
-  description: Second iteration of my personal website. Designed and developed with a conscious effort to avoid using any superfluous frameworks like Bootstrap.
-  used:
-  - thing: Jekyll
-  - thing: Handlebars
-  - thing: SCSS
-  - thing: JavaScript
-  - thing: Github Pages
+# - name: Zulip Desktop Redesign
+#   url: https://github.com/cedricium/
+#   description:
+#   used:
+#     - thing:
+#     - thing:
 
-- name: React Resume
-  url: http://brittanychiang.com/react-profile/
-  code: https://github.com/bchiang7/react-profile/
-  description: An online version of my 2016 resume I made for fun. I was interested in learning React.js, so I found this <a class="underline-link" href="https://medium.com/learning-new-stuff/building-your-first-react-js-app-d53b0c98dc#.1439cdewq">simple tutorial</a> and it kind of spun into this weekend project. I probably didn't need to use React at all, but hey, at least I learned a few things!
-  used:
-  - thing: JavaScript
-  - thing: React
-  - thing: CSS
+# - name: RedditBot
+#   url: https://github.com/cedricium/
+#   description:
+#   used:
+#     - thing:
+#     - thing:
 
-- name: CourseSource
-  url: http://webdevspring2016-chiangbrittany.rhcloud.com/project/client/#/login
-  code: https://github.com/bchiang7/WebDevSpring2016/tree/master/public/project
-  description: A web application built on the MEAN (MongoDB, Express, Angular, Node) stack for my web development course at Northeastern. I created this web app with the intention of providing Northeastern Students a better experience browsing the courses offered at Northeastern.
-  used:
-    - thing: HTML
-    - thing: CSS
-    - thing: JavaScript
-    - thing: Node.js
-    - thing: Angular
-    - thing: Express
-    - thing: MongoDB
-
-- name: NU Women in Tech
-  url: http://nuwit.ccs.neu.edu/
-  code: https://github.com/nuwit/website
-  description: Complete overhaul and redesign of NU Women in Tech's club website using Jekyll, built while serving as web chair on the e-board.
-  used:
-    - thing: Jekyll
-    - thing: HTML
-    - thing: CSS
-    - thing: JavaScript
-    - thing: Bootstrap
-
-- name: Fontipsums
-  url: http://brittanychiang.com/fontipsums
-  code: https://github.com/bchiang7/fontipsums
-  description: As someone who has an eye for typography, I wanted a way to visually see different font combinations together. I whipped up this simple website to display some of my favorite pairings combined with some fun lorem ipsum variations I found on the web.
-  used:
-    - thing: HTML
-    - thing: SCSS
-
-- name: Personal Website V1
-  url: http://brittanychiang.com/v1
-  code: https://github.com/bchiang7/website_2015/
-  description: My first portfolio website I designed and built in 2014. I learned quite a bit about HTML, CSS, and SEO. Since then, I think my web development and design skills have improved immensely.
-  used:
-  - thing: HTML
-  - thing: CSS
-  - thing: Bootstrap
-  - thing: JavaScript
-  - thing: jQuery
-
-- name: One Card For All
-  url: http://onecardforall.org
-  description: MullenLowe's 2016 holiday site built around an algorithm that generates a holiday greeting to each and every person on the planet. As new names appear, visitors can watch them fall, like snowflakes, onto a stylized world map. Users can also find their own name and see it as part of the world collective. Check out this short <a class="underline-link" href="http://us.mullenlowe.com/work/one-card-for-all/" target="_blank">video</a> describing the project.
-  used:
-    - thing: HTML
-    - thing: SCSS
-    - thing: JavaScript
-    - thing: jQuery
-
-- name: JetBlue HumanKinda
-  url: http://jetbluehumankinda.com
-  description: Tumblr site complementing JetBlue's HumanKinda campaign and documentary. The site houses the video documentary, many graphics created by Mullen for the campaign, and an interactive quiz to determine how "HumanKinda" you are. Learn more about this project <a class="underline-link" href="http://us.mullenlowe.com/work/humankinda/" target="_blank">here</a>.
-  used:
-    - thing: HTML
-    - thing: CSS
-    - thing: JavaScript
-    - thing: jQuery
+# - name: TicTacToe
+#   url: https://github.com/cedricium/
+#   description:
+#   used:
+#     - thing:
+#     - thing:
