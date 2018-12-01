@@ -1,6 +1,5 @@
 languages:
   - item: JavaScript (ES6+)
-  - item: TypeScript
   - item: HTML
   - item: CSS/Sass
   - item: Python
@@ -9,6 +8,7 @@ languages:
 frameworks:
   - item: Node.js
   - item: Vue.js
+  - item: React.js
   - item: Express.js
   - item: jQuery
   - item: Bulma
