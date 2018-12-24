@@ -1,3 +1,12 @@
+- name: conundrum
+  url: https://github.com/cedricium/conundrum/
+  description: Conundrum is a simple riddle game, built using React.js and deployed using ZEIT `now`. This is my first React project and it was developed as a means to practice using various React things, such as state and component lifecycle, fetching data from an API, and styling components. <a class="underline-link" href="https://conundrum.now.sh" target="_blank">Check it out here</a> - can you get all the correct answers?
+  used:
+    - thing: React.js
+    - thing: Express.js (backend)
+    - thing: Google Firestore
+    - thing: JavaScript (Node.js)
+
 - name: should-i-cli
   url: https://github.com/cedricium/should-i-cli/
   description: CLI app to make decision-making easier. Ask a question to get back a yes or no answer. Developed using Heroku's <a class="underline-link" href="https://github.com/oclif/oclif#oclif-nodejs-open-cli-framework" target="_blank">oclif open CLI framework</a>. Featured on ProductHunt and has 35+ stars on GitHub.

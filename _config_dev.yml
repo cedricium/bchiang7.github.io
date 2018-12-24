@@ -11,10 +11,10 @@ resume: https://cedric.tech/resume2018.pdf
 social:
   - title: email
     url: mailto:amaya.cedric@gmail.com
+  - title: blog
+    url: https://cedric.tech/blog
   - title: twitter
     url: https://twitter.com/CedricAmaya
-  - title: instagram
-    url: https://instagram.com/cedric.tech
   - title: github
     url: https://github.com/cedricium
   - title: linkedin
