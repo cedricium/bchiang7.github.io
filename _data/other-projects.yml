@@ -1,3 +1,12 @@
+- name: Bookr
+  url: https://github.com/the-bookr-team/bookr-frontend
+  description: Bookr is a full-stack web app that helps users find their next great read based on peer reviews. During this project, I was responsible for the Redux architecture as well as the <a class="underline-link" href="https://www.figma.com/file/caN1ewvLB4Z7Omvf05UtEfXc/Bookr?node-id=0%3A1" target="_blank">UI and general design of the site</a>.
+  used:
+    - thing: React.js
+    - thing: Redux
+    - thing: Netlify (CI & hosting)
+    - thing: Jest (testing)
+
 - name: conundrum
   url: https://github.com/cedricium/conundrum/
   description: Conundrum is a simple riddle game, built using React.js and deployed using ZEIT `now`. This is my first React project and it was developed as a means to practice using various React things, such as state and component lifecycle, fetching data from an API, and styling components. <a class="underline-link" href="https://conundrum.now.sh" target="_blank">Check it out here</a> - can you get all the correct answers?
@@ -23,47 +32,47 @@
     - thing: HTML
     - thing: CSS
 
-- name: Firefly
-  url: https://github.com/cedricium/firefly/
-  description: Firefly is a fullstack web application clone of <a class="underline-link" href="https://www.awwwards.com" target="_blank">Awwwards</a>, <a class="underline-link" href="http://www.siteinspire.com" target="_blank">siteInspire</a>, and <a class="underline-link" href="https://www.lapa.ninja/" target="_blank">lapa</a> who's purpose is to "shed light on inspiring sites from around the web". Firefly was a testbed for me to practice and gain experience using a JavaScript framework (Vue.js) as well as allowing me to further develop my general web development skills.
-  used:
-    - thing: Node.js
-    - thing: Vue.js
-    - thing: Express.js
-    - thing: Bulma
-    - thing: SQLite
+# - name: Firefly
+#   url: https://github.com/cedricium/firefly/
+#   description: Firefly is a fullstack web application clone of <a class="underline-link" href="https://www.awwwards.com" target="_blank">Awwwards</a>, <a class="underline-link" href="http://www.siteinspire.com" target="_blank">siteInspire</a>, and <a class="underline-link" href="https://www.lapa.ninja/" target="_blank">lapa</a> who's purpose is to "shed light on inspiring sites from around the web". Firefly was a testbed for me to practice and gain experience using a JavaScript framework (Vue.js) as well as allowing me to further develop my general web development skills.
+#   used:
+#     - thing: Node.js
+#     - thing: Vue.js
+#     - thing: Express.js
+#     - thing: Bulma
+#     - thing: SQLite
 
-- name: Signature
-  url: https://github.com/cedricium/signature/
-  description: The second browser extension I built designed to <a class="underline-link" href="https://medium.freecodecamp.org/improving-the-medium-experience-one-browser-extension-at-a-time-7df7e233c984" target="_blank">improve the medium experience</a>. Gives users the ability to quickly insert a signature in Medium blog posts.
-  used:
-    - thing: Node.js
-    - thing: HTML
-    - thing: Bulma
-    - thing: JavaScript APIs
+# - name: Signature
+#   url: https://github.com/cedricium/signature/
+#   description: The second browser extension I built designed to <a class="underline-link" href="https://medium.freecodecamp.org/improving-the-medium-experience-one-browser-extension-at-a-time-7df7e233c984" target="_blank">improve the medium experience</a>. Gives users the ability to quickly insert a signature in Medium blog posts.
+#   used:
+#     - thing: Node.js
+#     - thing: HTML
+#     - thing: Bulma
+#     - thing: JavaScript APIs
 
-- name: Medium Bookmarklets
-  url: https://github.com/cedricium/medium-bookmarklets/
-  description: The first browser extension I built designed to <a class="underline-link" href="https://medium.freecodecamp.org/improving-the-medium-experience-one-browser-extension-at-a-time-7df7e233c984" target="_blank">improve the medium experience</a>. I found that Medium bookmarks weren't helpful if you hadn't finished an article, so I devised my own solution making use of Medium's fragment identifiers given to each element in an article. This allows users to save their spot in any article.
-  used:
-    - thing: Node.js
-    - thing: HTML
-    - thing: CSS
+# - name: Medium Bookmarklets
+#   url: https://github.com/cedricium/medium-bookmarklets/
+#   description: The first browser extension I built designed to <a class="underline-link" href="https://medium.freecodecamp.org/improving-the-medium-experience-one-browser-extension-at-a-time-7df7e233c984" target="_blank">improve the medium experience</a>. I found that Medium bookmarks weren't helpful if you hadn't finished an article, so I devised my own solution making use of Medium's fragment identifiers given to each element in an article. This allows users to save their spot in any article.
+#   used:
+#     - thing: Node.js
+#     - thing: HTML
+#     - thing: CSS
 
-- name: Quotr
-  url: https://github.com/cedricium/quotr/
-  description: Hundreds of quotes on design from creatives, for creators. Using the <a class="underline-link" href="http://quotesondesign.com/api-v4-0/" target="_blank">Quotes on Design API</a>, this app brings many enlightening, inspiring, and sometimes humorous quotes to your pocket. A must-have if you ever need some extra inspiration.
-  used:
-    - thing: Java (Android)
-    - thing: API
-    - thing: IntelliJ IDEA
+# - name: Quotr
+#   url: https://github.com/cedricium/quotr/
+#   description: Hundreds of quotes on design from creatives, for creators. Using the <a class="underline-link" href="http://quotesondesign.com/api-v4-0/" target="_blank">Quotes on Design API</a>, this app brings many enlightening, inspiring, and sometimes humorous quotes to your pocket. A must-have if you ever need some extra inspiration.
+#   used:
+#     - thing: Java (Android)
+#     - thing: API
+#     - thing: IntelliJ IDEA
 
-- name: generator-sipss
-  url: https://github.com/cedricium/generator-sipss/
-  description: A Yeoman generator used to scaffold a static site for an existing project, one usually hosted on GitHub. It will create a /docs folder containing the site files and resources which then enables you to host your project's newly-created site by enabling GitHub pages from the /docs folder in the master branch. More info can be found by reading <a class="underline-link" href="https://twitter.com/CedricAmaya/status/997322163454525440" target="_blank">this Twitter thread</a>.
-  used:
-    - thing: Yeoman CLI
-    - thing: JavaScript
+# - name: generator-sipss
+#   url: https://github.com/cedricium/generator-sipss/
+#   description: A Yeoman generator used to scaffold a static site for an existing project, one usually hosted on GitHub. It will create a /docs folder containing the site files and resources which then enables you to host your project's newly-created site by enabling GitHub pages from the /docs folder in the master branch. More info can be found by reading <a class="underline-link" href="https://twitter.com/CedricAmaya/status/997322163454525440" target="_blank">this Twitter thread</a>.
+#   used:
+#     - thing: Yeoman CLI
+#     - thing: JavaScript
 
 # TODO - complete later
 # - name: tanabata-tree

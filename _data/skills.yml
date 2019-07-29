@@ -6,10 +6,11 @@ languages:
   - item: SQL
 
 frameworks:
+  - item: React
+  - item: Redux
   - item: Node.js
-  - item: Vue.js
-  - item: React.js
   - item: Express.js
+  - item: Vue.js
   - item: jQuery
   - item: Bulma
   - item: Bootstrap
@@ -19,3 +20,5 @@ tools:
   - item: Git & GitHub
   - item: DevTools
   - item: Postman
+  - item: Netlify
+  - item: Jenkins
