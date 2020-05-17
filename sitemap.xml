@@ -6,8 +6,112 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
+
 <url>
   <loc>https://cedric.tech/</loc>
-  <lastmod>2017-10-12T00:07:11+00:00</lastmod>
+  <lastmod>2020-01-22T18:53:31+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
+<url>
+  <loc>https://cedric.tech/blog/</loc>
+  <lastmod>2020-05-08T07:33:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cedric.tech/resume.pdf</loc>
+  <lastmod>2020-01-22T18:53:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cedric.tech/blog/fooled-by-magic-scrollbars/</loc>
+  <lastmod>2020-05-08T07:33:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cedric.tech/blog/quarantine-reading-list/</loc>
+  <lastmod>2020-05-08T07:33:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cedric.tech/blog/unearth-diary-04-does-it-even-work/</loc>
+  <lastmod>2020-05-08T07:33:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cedric.tech/blog/always-searching-for-answers/</loc>
+  <lastmod>2020-05-08T07:33:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cedric.tech/blog/unearth-diary-03-the-tech-powering-unearth/</loc>
+  <lastmod>2020-05-08T07:33:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cedric.tech/blog/unearth-diary-02-how-does-it-work/</loc>
+  <lastmod>2020-05-08T07:33:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cedric.tech/blog/unearth-diary-01-what-is-it/</loc>
+  <lastmod>2020-05-08T07:33:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cedric.tech/blog/just-do-it/</loc>
+  <lastmod>2020-05-08T07:33:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cedric.tech/blog/searching-git-history/</loc>
+  <lastmod>2020-05-08T07:33:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cedric.tech/blog/expressjs-accessing-req-params-from-child-routers/</loc>
+  <lastmod>2020-05-08T07:33:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cedric.tech/blog/deploying-react-app-with-netlify/</loc>
+  <lastmod>2020-05-08T07:33:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cedric.tech/blog/side-project-addiction/</loc>
+  <lastmod>2020-05-08T07:33:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cedric.tech/blog/ceddy-spaghetti-studios/</loc>
+  <lastmod>2020-05-08T07:33:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cedric.tech/blog/reddits-save-functionality-sucks/</loc>
+  <lastmod>2020-05-08T07:33:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cedric.tech/blog/building-side-projects/</loc>
+  <lastmod>2020-05-08T07:33:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cedric.tech/blog/advice-for-beginners/</loc>
+  <lastmod>2020-05-08T07:33:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cedric.tech/blog/i-have-moved/</loc>
+  <lastmod>2020-05-08T07:33:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cedric.tech/blog/about/</loc>
+  <lastmod>2020-05-08T07:33:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
 </urlset>
