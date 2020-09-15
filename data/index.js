@@ -17,7 +17,8 @@ export const otherProjects = [
   {
     name: 'Bookr',
     url: 'https://github.com/the-bookr-team/bookr-frontend',
-    description: '',
+    description:
+      'Bookr is a full-stack web app that helps users find their next great read based on peer reviews. During this project, I was responsible for the Redux architecture as well as the <a class="underline-link" href="https://www.figma.com/file/caN1ewvLB4Z7Omvf05UtEfXc/Bookr?node-id=0%3A1" target="_blank">UI and general design of the site</a>.',
     used: ['React.js', 'Redux', 'Netlify', 'Jest'],
   },
   {
