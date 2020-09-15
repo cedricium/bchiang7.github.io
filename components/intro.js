@@ -9,8 +9,8 @@ export default function Intro() {
       <h2 className='intro__tagline'>
         I'm{` `}
         <span className='name'>Cedric Amaya</span>, a JavaScript aficionado
-        passionate about creating exciting and memorable experiences using web
-        technologies.{` `}
+        passionate about creating exciting and memorable experiences for the
+        web.{` `}
         <span className='emoji technologist' />
       </h2>
 

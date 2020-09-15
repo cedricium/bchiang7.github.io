@@ -1,6 +1,4 @@
-import Head from 'next/head'
-
-// TODO: create `layout` component w/ Footer and utilize in this page
+import Layout from '@/components/layout'
 
 import Intro from '@/components/intro'
 import Background from '@/components/background'
@@ -8,22 +6,16 @@ import Skills from '@/components/skills'
 import Experience from '@/components/experience'
 import FeaturedProjects from '@/components/featured-projects'
 import OtherProjects from '@/components/other-projects'
-import Footer from '@/components/footer'
 
 export default function Home() {
   return (
-    <div>
-      <Head>
-        <title>Create Next App</title>
-        <link rel='icon' href='/favicon.ico' />
-      </Head>
+    <Layout>
       <Intro />
       <Background />
       <Skills />
       <Experience />
       <FeaturedProjects />
       <OtherProjects />
-      <Footer />
-    </div>
+    </Layout>
   )
 }
