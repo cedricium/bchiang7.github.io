@@ -7,21 +7,21 @@ export default function Experience() {
       <div className='section__content'>
         <div className='jobs'>
           {experience.map((job) => (
-            <div className='job'>
+            <div key={`${job.company}-${job.timeframe}`} className='job'>
               <div className='time-place'>
                 <div className='job__company'>
                   <a href={job.url} target='_blank'>
                     {job.company}
                   </a>
                 </div>
-                <div className='job__time'>{job.time}</div>
+                <div className='job__time'>{job.timeframe}</div>
               </div>
               <div className='job__position'>{job.position}</div>
             </div>
           ))}
         </div>
 
-        <a href='{site.resume}' target='_blank' className='arrow-link'>
+        <a href='/resume.pdf' target='_blank' className='arrow-link'>
           View My Resume
         </a>
       </div>

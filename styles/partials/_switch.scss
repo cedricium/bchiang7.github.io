@@ -9,16 +9,17 @@
     top: 10px;
     right: 20px;
   }
-  .sun, .moon {
+  .sun,
+  .moon {
     width: 17px;
     height: 17px;
   }
   .sun {
-    background: url('../img/switch/sun.svg') no-repeat center;
+    background: url('/img/switch/sun.svg') no-repeat center;
     background-size: 100%;
   }
   .moon {
-    background: url('../img/switch/moon.svg') no-repeat center;
+    background: url('/img/switch/moon.svg') no-repeat center;
     background-size: 100%;
   }
   .toggle-wrapper {

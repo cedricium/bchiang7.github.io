@@ -6,11 +6,9 @@ export default function Footer() {
       <div className='footer__copyright'>
         <div className='bottom'>
           <span>Cedric Amaya</span>
-          <img
-            className='emoji'
-            src='{{site.baseurl}}/img/emojis/rockon.png'
-            alt='emoji'
-          />
+          {` `}
+          <img className='emoji' src='/img/emojis/rockon.png' alt='emoji' />
+          {` `}
           <span>2020</span>
         </div>
       </div>
@@ -23,7 +21,7 @@ export default function Footer() {
             title={link.title}
           >
             <span className='text'>{link.title}</span>
-            {/* <img src="{{site.baseurl}}/img/social/{{link.title}}.svg" alt="{{link.title}}"> */}
+            <img src={`/img/social/${link.title}.svg`} alt={link.title} />
           </a>
         ))}
       </div>

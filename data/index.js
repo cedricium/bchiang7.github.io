@@ -50,7 +50,7 @@ export const skills = {
 }
 
 export const social = [
-  { title: 'email', url: 'amaya.cedric@gmail.com' },
+  { title: 'email', url: 'mailto:amaya.cedric@gmail.com' },
   { title: 'blog', url: 'https://cedric.tech/blog' },
   { title: 'twitter', url: 'https://twitter.com/cedricamaya' },
   { title: 'github', url: 'https://github.com/cedricium' },

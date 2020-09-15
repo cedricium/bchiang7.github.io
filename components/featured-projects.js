@@ -6,10 +6,7 @@ export default function FeaturedProjects() {
         <div className='project unearth'>
           <figure className='project__pic'>
             <a href='https://www.tryunearth.com/' target='_blank'>
-              <img
-                src='{{site.baseurl}}/img/featured/unearth/unearth.png'
-                alt='unearth logo'
-              />
+              <img src='/img/featured/unearth/unearth.png' alt='unearth logo' />
             </a>
           </figure>
           <figcaption className='project__caption'>
@@ -35,7 +32,7 @@ export default function FeaturedProjects() {
               target='_blank'
             >
               <img
-                src='{{site.baseurl}}/img/featured/notes/ff-notes.png'
+                src='/img/featured/notes/ff-notes.png'
                 alt='screenshot of Firefox Notes on web and mobile'
               />
             </a>

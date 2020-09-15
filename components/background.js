@@ -6,7 +6,7 @@ export default function Background() {
       <div className='section__title'>Background</div>
       <div className='section__content'>
         <p>
-          I recently completed a software engineering internship at
+          I recently completed a software engineering internship at{` `}
           <a
             className='underline-link'
             href='https://www.moogsoft.com/'
@@ -14,9 +14,9 @@ export default function Background() {
           >
             Moogsoft
           </a>
-          where I wrangled JavaScript charting libraries and helped to optimize
-          web app bundling and build performance. I'm also studying Full Stack
-          Web Development at
+          {` `}where I wrangled JavaScript charting libraries and helped to
+          optimize web app bundling and build performance. I'm also studying
+          Full Stack Web Development at{` `}
           <a
             className='underline-link'
             href='https://lambdaschool.com/courses/full-stack-web-development'
@@ -35,7 +35,7 @@ export default function Background() {
         <p>
           When I'm not in front of a computer screen, I'm probably hanging out
           with my girlfriend, riding around the Bay Area on my road bike,
-          sitting out in the sun with my dog, or
+          sitting out in the sun with my dog, or{` `}
           <a
             className='underline-link'
             href='https://cedric.tech/blog'
@@ -43,7 +43,7 @@ export default function Background() {
           >
             writing about whatever is on my mind
           </a>
-          at the moment.
+          {` `}at the moment.
         </p>
 
         <EmploymentStatus />

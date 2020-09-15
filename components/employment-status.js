@@ -1,6 +1,6 @@
 export default function EmploymentStatus() {
   return (
-    <a className='status' href='{{site.resume}}' target='_blank'>
+    <a className='status' href='/resume.pdf' target='_blank'>
       <div className='status__light'>
         <div className='status__light__ring'></div>
         <div className='status__light__led'></div>
