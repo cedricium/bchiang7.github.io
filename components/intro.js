@@ -1,4 +1,28 @@
+import { useEffect } from 'react'
+
 export default function Intro() {
+  useEffect(() => {
+    const hand = document.querySelector('.emoji.wave-hand')
+
+    const addWave = () => hand.classList.add('wave')
+    const removeWave = () => hand.classList.remove('wave')
+
+    const waveOnLoad = () => {
+      addWave()
+      setTimeout(removeWave, 1000)
+    }
+
+    setTimeout(waveOnLoad, 1000)
+
+    hand.addEventListener('mouseover', addWave)
+    hand.addEventListener('mouseout', removeWave)
+
+    return () => {
+      hand.removeEventListener('mouseover', addWave)
+      hand.removeEventListener('mouseout', removeWave)
+    }
+  }, [])
+
   return (
     <header className='intro'>
       <h1 className='intro__hello'>
