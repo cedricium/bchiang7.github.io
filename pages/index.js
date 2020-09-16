@@ -6,8 +6,13 @@ import Skills from '@/components/skills'
 import Experience from '@/components/experience'
 import FeaturedProjects from '@/components/featured-projects'
 import OtherProjects from '@/components/other-projects'
+import ToTopButton from '@/components/to-top-button'
+
+import useBodyTheme from '@/hooks/useBodyTheme'
 
 export default function Home() {
+  useBodyTheme()
+
   return (
     <Layout>
       <Intro />
@@ -16,6 +21,7 @@ export default function Home() {
       <Experience />
       <FeaturedProjects />
       <OtherProjects />
+      <ToTopButton />
     </Layout>
   )
 }
