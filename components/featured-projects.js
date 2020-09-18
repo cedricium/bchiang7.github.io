@@ -1,17 +1,17 @@
 export default function FeaturedProjects() {
   return (
-    <section className='section featured-projects'>
-      <div className='section__title'>Featured Projects</div>
-      <div className='section__content'>
-        <div className='project unearth'>
-          <figure className='project__pic'>
-            <a href='https://www.tryunearth.com/' target='_blank'>
-              <img src='/img/featured/unearth/unearth.png' alt='unearth logo' />
+    <section className="section featured-projects">
+      <div className="section__title">Featured Projects</div>
+      <div className="section__content">
+        <div className="project unearth">
+          <figure className="project__pic">
+            <a href="https://www.tryunearth.com/" target="_blank">
+              <img src="/img/featured/unearth/unearth.png" alt="unearth logo" />
             </a>
           </figure>
-          <figcaption className='project__caption'>
-            <div className='project__name'>
-              <a href='https://www.tryunearth.com/' target='_blank'>
+          <figcaption className="project__caption">
+            <div className="project__name">
+              <a href="https://www.tryunearth.com/" target="_blank">
                 unearth
               </a>
             </div>
@@ -25,23 +25,23 @@ export default function FeaturedProjects() {
             </p>
           </figcaption>
         </div>
-        <div className='project notes'>
-          <figure className='project__pic'>
+        <div className="project notes">
+          <figure className="project__pic">
             <a
-              href='https://addons.mozilla.org/en-US/firefox/addon/notes-by-firefox/'
-              target='_blank'
+              href="https://addons.mozilla.org/en-US/firefox/addon/notes-by-firefox/"
+              target="_blank"
             >
               <img
-                src='/img/featured/notes/ff-notes.png'
-                alt='screenshot of Firefox Notes on web and mobile'
+                src="/img/featured/notes/ff-notes.png"
+                alt="screenshot of Firefox Notes on web and mobile"
               />
             </a>
           </figure>
-          <figcaption className='project__caption'>
-            <div className='project__name'>
+          <figcaption className="project__caption">
+            <div className="project__name">
               <a
-                href='https://github.com/mozilla/notes/commits?author=cedricium'
-                target='_blank'
+                href="https://github.com/mozilla/notes/commits?author=cedricium"
+                target="_blank"
               >
                 Firefox Notes
               </a>

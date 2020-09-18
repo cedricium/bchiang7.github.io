@@ -6,8 +6,10 @@ export default function Layout({ title, children }) {
   return (
     <>
       <SEO title={title} />
-      <Header />
-      <main>{children}</main>
+      <main>
+        <Header />
+        {children}
+      </main>
       <Footer />
     </>
   )

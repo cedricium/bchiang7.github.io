@@ -12,13 +12,13 @@ export default function useScroll() {
       : {
           top: 0,
           left: 0,
-        },
+        }
   )
   const [scrollY, setScrollY] = useState(bodyOffset.top)
   const [scrollX, setScrollX] = useState(bodyOffset.left)
   const [scrollDirection, setScrollDirection] = useState()
 
-  const listener = (e) => {
+  const listener = e => {
     setBodyOffset(document.body.getBoundingClientRect())
     setScrollY(-bodyOffset.top)
     setScrollX(bodyOffset.left)

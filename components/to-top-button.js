@@ -29,11 +29,11 @@ export default function ToTopButton() {
 
   return (
     <button
-      id='top-button'
+      id="top-button"
       onClick={handleOnClick}
       style={{ display: isDisplayed ? 'block' : 'none' }}
     >
-      <img src='/img/emojis/pointing-up.png' alt='finger pointing up' />
+      <img src="/img/emojis/pointing-up.png" alt="finger pointing up" />
     </button>
   )
 }
