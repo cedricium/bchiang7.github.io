@@ -11,4 +11,4 @@ As I've gotten older, I've become less content with having minimal skills in man
 
 Inspired by [Pat Wall's blog](https://patwalls.com), I am going to attempt to write everyday. I will not impose a time frame for how many days in a row I should write. Instead I will focus on [building the habit of writing everyday](https://jamesclear.com/repetitions) to become a better writer.
 
-Over time after having [created a large volume of work](../advice-for-beginners) will my writing improve.
+Over time after having [created a large volume of work](./advice-for-beginners) will my writing improve.

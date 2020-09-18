@@ -39,7 +39,7 @@ because I got stuck designing the app. This time around, however, I decided to
 copy a tried-and-true app design, pulling inspiration from Pocket.
 
 <div style="margin: 1rem 0">
-<img src="./pocket-vs-unearth.png" alt="Comparison of Pocket and Unearth" />
+<img src="/blog-assets/pocket-vs-unearth.png" alt="Comparison of Pocket and Unearth" />
 <center>
   <small>Comparison of Pocket (left) and Unearth (right).</small>
 </center>

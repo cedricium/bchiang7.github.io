@@ -45,7 +45,7 @@ of my Sendgrid dashboard containing the most relevant information.
 
 <div style="margin: 1rem 0 1.5rem">
     <img
-      src="./sendgrid-stats.png"
+      src="/blog-assets/sendgrid-stats.png"
       alt="Sendgrid stats dashboard for Unearth since its inception."
     />
   <center>

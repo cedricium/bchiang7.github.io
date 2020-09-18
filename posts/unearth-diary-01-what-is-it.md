@@ -32,7 +32,7 @@ of our Reddit saves as frequently as every day.
 
 <div>
 <a href="https://www.tryunearth.com">
-  <img src="./unearth-homepage.png" alt="Unearth homepage" />
+  <img src="/blog-assets/unearth-homepage.png" alt="Unearth homepage" />
 </a>
 <center>
   <small>Screenshot of the Unearth homepage.</small>

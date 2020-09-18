@@ -40,7 +40,7 @@ mirror those of Reddit data, with fields such as: `id`, `subreddit`, `score`, `o
 entities.
 
 <div style="margin: 1rem 0 1.5rem">
-    <img src="./unearth-db-schema.png" alt="Unearth database schema" />
+    <img src="/blog-assets/unearth-db-schema.png" alt="Unearth database schema" />
   <center>
     <small>Unearth database schema courtesy dbdiagram.io</small>
   </center>

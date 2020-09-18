@@ -6,7 +6,7 @@ draft: false
 ---
 
 It's approximately 11 PM on Sunday and I still have not written anything for the
-day. [I mentioned yesterday](../my-desired-writing-style) that it is easy for me
+day. [I mentioned yesterday](./my-desired-writing-style) that it is easy for me
 to come up with many shallow writing topics, and the opposite of that is also
 true: I find it hard to come up with a few "deep" ideas worth exploring.
 

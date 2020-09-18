@@ -13,7 +13,7 @@ Check back often for future updates.
 
 Unearth is a service that sends users a personalized newsletter with a handful
 of their Reddit saves at the frequency of their choice.
-[Read the first article](../unearth-diary-01-what-is-it)
+[Read the first article](./unearth-diary-01-what-is-it)
 in this series to get a better understanding of what Unearth is.
 
 New users can join by visiting the Unearth homepage:
@@ -45,7 +45,7 @@ their account and all associated data entirely, they can do so by visiting the
 Account page.
 
 <div>
-    <img src="./account-page.png" alt="Example Unearth Account page" />
+    <img src="/blog-assets/account-page.png" alt="Example Unearth Account page" />
   <center>
     <small>Screenshot of the Account page.</small>
   </center>

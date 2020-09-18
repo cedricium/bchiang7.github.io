@@ -54,7 +54,7 @@ the reason.
 
 <div style="margin: 1rem 0">
 <video controls preload="auto" width="100%">
-  <source src="./magic-scrollbars.mp4" type="video/mp4" />
+  <source src="/blog-assets/magic-scrollbars.mp4" type="video/mp4" />
 </video>
 <center>
   <small>Demo of the magic scrollbars.</small>

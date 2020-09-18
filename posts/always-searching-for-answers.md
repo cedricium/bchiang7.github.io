@@ -52,7 +52,7 @@ When I find myself searching for answers to every little nuisance in my life,
 it takes time away from doing the things I actually want to do. As a result, I
 end up feeling stuck because now I'm no longer making any progress. This goes
 against a critical phase in
-[advancing any creative's skills](../advice-for-beginners) from novice to
+[advancing any creative's skills](./advice-for-beginners) from novice to
 expert: "…do a lot of work. Do a huge volume of work."
 
 ### How Can I Fix This
