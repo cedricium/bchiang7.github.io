@@ -1,0 +1,22 @@
+.navbar {
+  padding: 40px 80px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  @include desktop {
+    padding: 40px;
+  }
+  @include mobile {
+    padding: 30px;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: row;
+
+    li {
+      margin-left: 20px;
+    }
+  }
+}

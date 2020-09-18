@@ -1,0 +1,32 @@
+.blog-post {
+  padding: 0;
+  margin: 0 auto;
+  max-width: 720px;
+
+  @media (max-width: $tablet-width) {
+    padding: 0 20px;
+  }
+
+  &__title,
+  &__backlink {
+    margin: 0 0 10px;
+  }
+
+  &__subtitle {
+    color: $grey;
+    font-size: 115%;
+  }
+
+  a {
+    color: $blue;
+  }
+
+  .article-list li {
+    margin: 0 0 3px;
+  }
+
+  // TODO - custom markdown-to-html styling overrides go here
+  // things needing fixing:
+  // - lists (ul li)
+  // - code blocks (`…` && ```…```)
+}
