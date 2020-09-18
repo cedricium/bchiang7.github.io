@@ -9,7 +9,10 @@ export default function SEO({ title }) {
         name='viewport'
         content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no'
       />
-      <title>{title || 'Cedric Amaya | Full Stack Software Engineer'}</title>
+      <title>
+        {(title && `${title} - Cedric Amaya`) ||
+          'Cedric Amaya | Full Stack Software Engineer'}
+      </title>
       <link
         rel='icon'
         type='image/png'
