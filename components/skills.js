@@ -1,4 +1,4 @@
-import { skills } from '../data'
+import { skills } from 'data'
 
 export default function Skills() {
   const { languages, frameworks, tools } = skills

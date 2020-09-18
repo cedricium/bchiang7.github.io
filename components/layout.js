@@ -1,12 +1,12 @@
-import SEO from '@/components/seo'
-import Footer from '@/components/footer'
-import ThemeToggle from '@/components/theme-toggle'
+import SEO from 'components/seo'
+import Header from 'components/header'
+import Footer from 'components/footer'
 
-export default function Layout({ children }) {
+export default function Layout({ title, children }) {
   return (
     <>
-      <SEO />
-      <ThemeToggle />
+      <SEO title={title} />
+      <Header />
       <main>{children}</main>
       <Footer />
     </>

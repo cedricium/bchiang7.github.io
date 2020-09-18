@@ -1,4 +1,6 @@
-import EmploymentStatus from '@/components/employment-status'
+import Link from 'next/link'
+
+import EmploymentStatus from 'components/employment-status'
 
 export default function Background() {
   return (
@@ -36,13 +38,11 @@ export default function Background() {
           When I'm not in front of a computer screen, I'm probably hanging out
           with my girlfriend, riding around the Bay Area on my road bike,
           sitting out in the sun with my dog, or{` `}
-          <a
-            className='underline-link'
-            href='https://cedric.tech/blog'
-            target='_blank'
-          >
-            writing about whatever is on my mind
-          </a>
+          <Link href='/blog'>
+            <a className='underline-link'>
+              writing about whatever is on my mind
+            </a>
+          </Link>
           {` `}at the moment.
         </p>
 

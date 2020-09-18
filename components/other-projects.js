@@ -1,4 +1,4 @@
-import { otherProjects } from '../data'
+import { otherProjects } from 'data'
 
 export default function OtherProjects() {
   return (

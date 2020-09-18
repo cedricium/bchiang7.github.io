@@ -1,4 +1,4 @@
-import { social } from '../data'
+import { social } from 'data'
 
 export default function Footer() {
   return (

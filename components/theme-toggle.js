@@ -1,4 +1,4 @@
-import useBodyTheme from '@/hooks/useBodyTheme'
+import useBodyTheme from 'hooks/useBodyTheme'
 
 export default function ThemeToggle() {
   const { isDark, toggleTheme } = useBodyTheme()

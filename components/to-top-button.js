@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 
-import useScroll from '@/hooks/useScroll'
+import useScroll from 'hooks/useScroll'
 
 export default function ToTopButton() {
   const [introHeight, setIntroHeight] = useState(0)
