@@ -3,12 +3,13 @@ export default function Blurb() {
     <div className="blurb">
       <img
         className="blurb__author-image"
-        src="https://cedricium.github.io/blog/static/avatar-a4c0572fba2f65f42cbe0ca29987940c.png"
+        src="/img/headshot.jpg"
         alt="Cedric Amaya"
       />
       <p className="blurb__author-bio">
-        Written by <strong>Cedric Amaya</strong>, a software engineering intern
-        who enjoys writing about what is on his mind. You should{' '}
+        Written by <strong>Cedric Amaya</strong>, a software engineer who enjoys
+        occasionally taking a break from coding to write about what is on his
+        mind. You should{' '}
         <a
           href="https://twitter.com/cedricamaya"
           target="_blank"
