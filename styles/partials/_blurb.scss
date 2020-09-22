@@ -1,0 +1,17 @@
+.blurb {
+  display: flex;
+  align-items: center;
+  margin: 2rem 0 1rem;
+  padding-top: 0.5rem;
+  border-top: solid 2px $slate;
+
+  &__author-image {
+    width: 3rem;
+    height: 3rem;
+    margin-right: 0.5rem;
+  }
+
+  &__author-bio {
+    font-style: italic;
+  }
+}
