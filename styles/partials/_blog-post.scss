@@ -21,12 +21,61 @@
     color: $blue;
   }
 
-  .article-list li {
-    margin: 0 0 3px;
+  .article-list {
+    list-style-type: none;
+    margin-left: 0;
+
+    li {
+      margin: 0 0 3px;
+    }
   }
 
   // TODO - custom markdown-to-html styling overrides go here
   // things needing fixing:
-  // - lists (ul li)
   // - code blocks (`…` && ```…```)
+
+  h1 {
+    font-size: 200%;
+  }
+
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 24px 0 16px;
+
+    & + p {
+      margin-top: 0;
+    }
+  }
+
+  hr {
+    border: none;
+    height: 2px;
+    color: $slate;
+    background: $slate;
+  }
+
+  ul {
+    margin-left: 2rem;
+    list-style-type: disc;
+  }
+
+  blockquote {
+    position: relative;
+    color: $grey;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: -40px;
+
+      border-left-color: $grey;
+      border-left-style: solid;
+      border-left-width: 4px;
+    }
+  }
 }
