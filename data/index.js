@@ -1,5 +1,11 @@
 export const experience = [
   {
+    company: 'Hellosaurus',
+    url: 'https://www.hellosaurus.com/',
+    timeframe: 'Sept 2020 - Present',
+    position: 'Associate Software Engineer',
+  },
+  {
     company: 'Moogsoft',
     url: 'https://www.moogsoft.com/',
     timeframe: 'June 2020 - Sept 2020',
