@@ -1,6 +1,10 @@
 import Head from 'next/head'
 
 export default function SEO({ title }) {
+  const dynamicTitle = title
+    ? `${title} - Cedric Amaya`
+    : 'Cedric Amaya | Full Stack Software Engineer'
+
   return (
     <Head>
       <meta charSet="UTF-8" />
@@ -9,10 +13,7 @@ export default function SEO({ title }) {
         name="viewport"
         content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
       />
-      <title>
-        {(title && `${title} - Cedric Amaya`) ||
-          'Cedric Amaya | Full Stack Software Engineer'}
-      </title>
+      <title>{dynamicTitle}</title>
       <link
         rel="icon"
         type="image/png"
@@ -20,10 +21,7 @@ export default function SEO({ title }) {
         hrefLang="en-us"
       />
 
-      <meta
-        property="og:title"
-        content="Cedric Amaya | Full Stack Software Engineer"
-      />
+      <meta property="og:title" content={dynamicTitle} />
       <meta
         property="og:description"
         content="JavaScript aficionado passionate about creating exciting and memorable experiences for the web."
@@ -41,10 +39,7 @@ export default function SEO({ title }) {
         name="description"
         content="JavaScript aficionado passionate about creating exciting and memorable experiences for the web."
       />
-      <meta
-        itemProp="name"
-        content="Cedric Amaya | Full Stack Software Engineer"
-      />
+      <meta itemProp="name" content={dynamicTitle} />
       <meta
         itemProp="description"
         content="JavaScript aficionado passionate about creating exciting and memorable experiences for the web."
@@ -55,10 +50,7 @@ export default function SEO({ title }) {
       <meta name="twitter:url" content="https://cedric.tech/" />
       <meta name="twitter:site" content="@CedricAmaya" />
       <meta name="twitter:creator" content="@CedricAmaya" />
-      <meta
-        name="twitter:title"
-        content="Cedric Amaya | Full Stack Software Engineer"
-      />
+      <meta name="twitter:title" content={dynamicTitle} />
       <meta
         name="twitter:description"
         content="JavaScript aficionado passionate about creating exciting and memorable experiences for the web."
