@@ -30,10 +30,6 @@
     }
   }
 
-  // TODO - custom markdown-to-html styling overrides go here
-  // things needing fixing:
-  // - code blocks (`…` && ```…```)
-
   h1 {
     font-size: 200%;
   }
@@ -76,6 +72,32 @@
       border-left-color: $grey;
       border-left-style: solid;
       border-left-width: 4px;
+    }
+  }
+
+  pre {
+    font-size: 14px;
+    line-height: normal;
+    border-radius: 0.35rem;
+    border: 1px solid #3c4f61;
+  }
+
+  :not(pre) > code {
+    font-family: 'Fira Code', Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono',
+      monospace;
+    background: wheat;
+    font-size: 14px;
+    padding: 1px 4px;
+    border-radius: 0.15rem;
+    // border: 1px solid #3c4f61;
+  }
+
+  .night & {
+    // dark theme overrides
+
+    :not(pre) > code {
+      color: wheat;
+      background: #3c4f61;
     }
   }
 }

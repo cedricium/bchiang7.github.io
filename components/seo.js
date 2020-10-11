@@ -56,6 +56,12 @@ export default function SEO({ title }) {
         content="JavaScript aficionado passionate about creating exciting and memorable experiences for the web."
       />
       <meta name="twitter:image:src" content="https://cedric.tech/img/og.png" />
+
+      <link
+        href="https://rawcdn.githack.com/PrismJS/prism-themes/3bf9c48f3c375132d1b26e80d2ed97036cd6e4a6/themes/prism-nord.css"
+        rel="stylesheet"
+        type="text/css"
+      />
       <link
         href="https://fonts.googleapis.com/css?family=Inconsolata:400,700"
         rel="stylesheet"
