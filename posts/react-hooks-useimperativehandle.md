@@ -88,8 +88,6 @@ The ticket wanted all modals to have the colored headers and footers with the
 footers having action buttons in order to have a more uniformed UX across the
 CMS.
 
-<!-- show mockup of modals here -->
-
 ### Challenge
 
 Like most tasks I'm given, I like to plan out how I will implement the feature
@@ -226,7 +224,7 @@ should be avoided when possible. It's good to know that such a possibility does
 exist, however, in the case that you do need an escape hatch when a large
 rewrite is not feasible.
 
-### P.S. - What the heck is does imperative mean?
+### P.S. - What the heck does imperative mean?
 
 If you're like me, you might have had trouble making sense of this particular
 hook's name. I still don't know well enough to explain it myself, but luckily
