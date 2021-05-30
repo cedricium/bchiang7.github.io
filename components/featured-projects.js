@@ -3,6 +3,29 @@ export default function FeaturedProjects() {
     <section className="section featured-projects">
       <div className="section__title">Featured Projects</div>
       <div className="section__content">
+        <div className="project wiggles">
+          <figure className="project__pic">
+            <a href="https://www.hellosaurus.com/wiggles" target="_blank">
+              <img
+                src="https://www.hellosaurus.com/wiggles-social-thumbnail.png"
+                alt="Hellosaurus x The Wiggles"
+              />
+            </a>
+          </figure>
+          <figcaption className="project__caption">
+            <div className="project__name">
+              <a href="https://www.hellosaurus.com/wiggles" target="_blank">
+                Hellosaurus: The Wiggles + You Marketing Page
+              </a>
+            </div>
+            <p>
+              Developed a fully-responsive marketing landing page for the
+              Hellosaurus x The Wiggles campaign. The site was developed using
+              Next.js and deployed on Vercel and has a 95+ Lighthouse
+              performance audit score.
+            </p>
+          </figcaption>
+        </div>
         <div className="project unearth">
           <figure className="project__pic">
             <a href="https://www.tryunearth.com/" target="_blank">

@@ -9,11 +9,11 @@ export default function Footer() {
           {` `}
           <img className="emoji" src="/img/emojis/rockon.png" alt="emoji" />
           {` `}
-          <span>2020</span>
+          <span>{new Date().getFullYear()}</span>
         </div>
       </div>
       <div className="footer__links">
-        {social.map(link => (
+        {social.map((link) => (
           <a
             key={link.title}
             href={link.url}

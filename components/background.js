@@ -8,7 +8,7 @@ export default function Background() {
       <div className="section__title">Background</div>
       <div className="section__content">
         <p>
-          I'm currently an Associate Software Engineer at{` `}
+          I'm currently a Fullstack Software Engineer at{` `}
           <a
             className="underline-link"
             href="https://www.hellosaurus.com/"
@@ -57,7 +57,7 @@ export default function Background() {
           {` `}at the moment.
         </p>
 
-        <EmploymentStatus />
+        {/* <EmploymentStatus /> */}
       </div>
     </section>
   )

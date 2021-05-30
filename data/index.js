@@ -2,7 +2,13 @@ export const experience = [
   {
     company: 'Hellosaurus',
     url: 'https://www.hellosaurus.com/',
-    timeframe: 'Sept 2020 - Present',
+    timeframe: 'Feb 2021 - Present',
+    position: 'Fullstack Software Engineer',
+  },
+  {
+    company: 'Hellosaurus',
+    url: 'https://www.hellosaurus.com/',
+    timeframe: 'Sept 2020 - Feb 2021',
     position: 'Associate Software Engineer',
   },
   {
@@ -51,13 +57,21 @@ export const otherProjects = [
 ]
 
 export const skills = {
-  languages: ['JavaScript (ES6+)', 'HTML', 'CSS/Sass', 'Python', 'SQL', 'Bash'],
+  languages: [
+    'JavaScript (ES6+)',
+    'TypeScript',
+    'HTML',
+    'CSS/Sass',
+    'Python',
+    'SQL',
+    'Bash',
+  ],
   frameworks: ['Node.js', 'React', 'Redux', 'Vue', 'jQuery', 'Bootstrap'],
   tools: ['git', 'DevTools', 'Postman', 'Jenkins', 'Netlify', 'Heroku'],
 }
 
 export const social = [
-  { title: 'email', url: 'mailto:amaya.cedric@gmail.com' },
+  // { title: 'email', url: 'mailto:amaya.cedric@gmail.com' },
   { title: 'blog', url: 'https://cedric.tech/blog' },
   { title: 'twitter', url: 'https://twitter.com/cedricamaya' },
   { title: 'github', url: 'https://github.com/cedricium' },

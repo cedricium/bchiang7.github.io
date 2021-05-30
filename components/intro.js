@@ -38,7 +38,7 @@ export default function Intro() {
         <span className="emoji technologist" />
       </h2>
 
-      <h3 className="intro__contact">
+      {/* <h3 className="intro__contact">
         <span>Get in touch </span>
         {` `}
         <span className="emoji pointer" />
@@ -52,7 +52,7 @@ export default function Intro() {
             amaya.cedric@gmail.com
           </a>
         </span>
-      </h3>
+      </h3> */}
     </header>
   )
 }
